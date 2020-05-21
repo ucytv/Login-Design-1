@@ -28,6 +28,15 @@ implementation 'com.google.android.material:material:1.1.0'
 <color name="colorLight">#FFFFFF</color>
 ```
 
+### Font
+```
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:fontProviderAuthority="com.google.android.gms.fonts"
+        app:fontProviderPackage="com.google.android.gms"
+        app:fontProviderQuery="Architects Daughter"
+        app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
+</font-family>
+```
 ### Layout Style
 
 *for dark layout:*

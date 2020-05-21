@@ -68,6 +68,20 @@ implementation 'com.google.android.material:material:1.1.0'
     <string name="register">Do you want to join us?</string>
 </resources>
 ```
+### Java Class
+
+```
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        //Must be fullscreen!
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_main);
+
+        getSupportActionBar().hide(); //This is important!
+    }
+```
 
 ### XML File
 ```

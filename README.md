@@ -1,6 +1,6 @@
 ## Login-Design-1
 
-This project consists of design only.  The design which follows the trends of 2020 includes a screen that can enter your application. The demo and source codes are shown following.
+This project consists of design only.  The design which follows the trends of 2020 includes a screen that you can enter your application. The demo and source codes are shown following.
 
 ### Demo
 
